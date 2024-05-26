@@ -3,10 +3,16 @@ footer{
     position: fixed;
     bottom: 0;
     width: 80%;
+    display: flex;
+    justify-content: center;
     border-radius: 25px;
+    margin: 0 auto;
     box-shadow: rgb(0, 0, 0)  4px 2px 2px 2px ;
     height: auto;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
     text-align: center;
 }
 .link {

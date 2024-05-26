@@ -1,0 +1,50 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .card-artist, .card-album {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  .card-artist{
+    font-weight: bolder;
+  }
+  
+  .card-album{
+  
+    
+    
+   
+    
+    font-size: 0.8rem;
+
+  }

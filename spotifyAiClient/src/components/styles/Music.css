@@ -1,0 +1,57 @@
+.music-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sectionRecomendations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonSong{
+    background-color: #23D962;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    }
+
+
+  .botonSong:hover{
+    background-color: #23D962;
+  }
+  .botonSong:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.5;
+    
+  }
